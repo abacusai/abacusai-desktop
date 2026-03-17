@@ -19,45 +19,6 @@ Abacus AI brings the power of multiple leading AI models (Sonnet 4.5, Opus 4.5, 
 
 Visit [https://desktop.abacus.ai/](https://desktop.abacus.ai/) to Sign up and Get started.
 
-## **Why Abacus AI?**
-
-### **Benchmark-Leading Performance**
-
-Abacus AI Coding Agent Beats Claude Code and Codex On Key Benchmarks and consistently ranks in the Top 3 on key BenchMarks \- [Check out more](https://desktop.abacus.ai/)
-
-| Model                    | TerminalBench Score |
-| ------------------------ | :-----------------: |
-| **Abacus AI Desktop**    |      **62.3%**      |
-| Warp                     |         52%         |
-| Claude Code (Opus 4)     |        43.2%        |
-| Codex CLI (GPT 5)        |        42.8%        |
-| Claude Code (Sonnet 4)   |        35.5%        |
-| Claude Code (Sonnet 3.7) |        35.2%        |
-| Codex CLI (o4-mini)      |         20%         |
-
-### SWE-bench Verified: Top 5 Worldwide
-
-On [SWE-bench Verified](https://www.swebench.com/), Abacus AI Desktop achieved a remarkable **74%**, again beating both Claude Code and Codex CLI.
-
-| Model                    | SWE-bench Verified Score |
-| ------------------------ | :----------------------: |
-| **Abacus AI Desktop**    |         **74%**          |
-| Codex CLI (GPT 5)        |          72.8%           |
-| Claude Code (Sonnet 4)   |          72.7%           |
-| Claude Code (Opus 4)     |          72.5%           |
-| Claude Code (Sonnet 3.7) |          62.3%           |
-
-### **Access to All Top SOTA Models**
-
-Unlike other coding assistants that lock you into a single model, Abacus AI gives you **access to multiple state-of-the-art models**:
-
-- **Sonnet 4.5, Opus 4.5, Gemini 3 Pro and more** - Maximum reasoning power for complex challenges
-- **Kimi K2, Qwen Coder and more** - Fast, balanced performance for everyday coding
-
-### **Accessible with your Preferred Workflow**
-
-Use the top AI coding agent by Abacus AI as per your workflow — available via Desktop App, IDE Extension, and CLI.
-
 ### **Part of Abacus AI Pro Tier**
 
 Included with your subscription alongside ChatLLM Teams, DeepAgent, Abacus AI Desktop App, and Abacus AI Listener — a complete AI productivity suite.
