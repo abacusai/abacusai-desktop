@@ -7,7 +7,7 @@ Abacus AI brings the power of multiple leading AI models (Sonnet 4.5, Opus 4.5, 
 <div id="codellm-logo" align="center">
     <br />
     <img src="https://github.com/abacusai.png" alt="Abacus AI Logo" width="200"/>
-    <h1>DeepAgent</h1>
+    <h1>AbacusAI</h1>
     <h4>Your All-In-One AI Platform</h4>
 </div>
 
