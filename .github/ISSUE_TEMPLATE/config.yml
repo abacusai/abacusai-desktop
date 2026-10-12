@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Email support
+    url: mailto:support@abacus.ai
+    about: Account, billing and other questions.
+  - name: Documentation
+    url: https://abacus.ai/help/abacusai-desktop/introduction
+    about: Guides for the extension, CLI and Desktop app.

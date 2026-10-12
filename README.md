@@ -1,106 +1,62 @@
-# **Abacus AI \- Your AI Coding Companion with Access to All Top Models**
+# Abacus AI Agent
 
-**Code faster, smarter, and better with state-of-the-art AI models.**
+Abacus AI Agent is a coding agent that works with any model. Hand it a task and it reads your project, plans, edits files and runs commands, and you decide how much it does on its own. Use it in VS Code, in your terminal with the `abacusai` CLI, or in the Abacus AI Desktop app, with the same account and conversation history.
 
-Abacus AI brings the power of multiple leading AI models (Sonnet 4.5, Opus 4.5, and more) powered by DeepAgent's industry-leading orchestration. Whether you're writing new features, debugging complex issues, or refactoring legacy code, Abacus AI is your intelligent pair programmer that understands context, anticipates needs, and delivers results.
+![Abacus AI Agent in the VS Code sidebar adding input validation to a TypeScript file, with the edit shown as a diff in the chat](assets/extension-agent.png)
 
-<div id="codellm-logo" align="center">
-    <br />
-    <img src="https://github.com/abacusai.png" alt="Abacus AI Logo" width="200"/>
-    <h1>AbacusAI</h1>
-    <h4>Your All-In-One AI Platform</h4>
-</div>
+## Get started
 
----
+**VS Code.** Install [Abacus AI Agent](https://marketplace.visualstudio.com/items?itemName=abacusai.abacusai-agent) from the Marketplace. It is also on [Open VSX](https://open-vsx.org/extension/abacusai/abacusai-agent) for VS Code-compatible editors. Open the **Abacus AI** view and sign in.
 
-## **To Get Started?**
+**CLI.** On macOS, Linux and WSL:
 
-- **Subscription**: Active Abacus AI Pro subscription ([Sign up →](https://abacus.ai/pricing))
+```sh
+curl -fsSL https://static.abacus.ai/cli/install.sh | bash
+```
 
-Visit [https://desktop.abacus.ai/](https://desktop.abacus.ai/) to Sign up and Get started.
+On Windows (PowerShell):
 
-### **Part of Abacus AI Pro Tier**
+```powershell
+irm https://static.abacus.ai/cli/install.ps1 | iex
+```
 
-Included with your subscription alongside ChatLLM Teams, DeepAgent, Abacus AI Desktop App, and Abacus AI Listener — a complete AI productivity suite.
+Or with npm (Node 18 or later):
 
----
-
-## **CLI Installation & Usage**
-
-Abacus AI is also available as a terminal-based coding agent via the CLI.
-
-### **Install**
-
-```bash
+```sh
 npm install -g @abacus-ai/cli
 ```
 
-### **Usage**
+Then run `abacusai` in your project and sign in with `/login`.
 
-After installation, simply run:
+**Desktop.** Download the app from [desktop.abacus.ai](https://desktop.abacus.ai/).
 
-```bash
-abacusai
-```
+## Use any model
 
-This launches the Abacus AI terminal agent, giving you access to the same powerful AI models and coding capabilities directly from your command line. Use it for code generation, debugging, refactoring, and more — all without leaving your terminal.
+- **One Abacus.AI plan.** Claude, GPT and Gemini families plus open models such as Kimi, Qwen, DeepSeek and GLM. RouteLLM can pick a model for each turn.
+- **Your ChatGPT subscription.** If Codex is signed in with ChatGPT, the agent detects it and offers those models.
+- **Your API keys.** OpenAI, Anthropic and Google keys, stored in your OS keychain.
+- **Local and OpenAI-compatible models.** Ollama, LM Studio, vLLM, Groq, Together, OpenRouter, DeepSeek or any OpenAI-compatible endpoint.
 
----
+Switch models mid-conversation, even across providers.
 
-## **Security & Privacy**
+## Reporting bugs
 
-**Your Code, Your Control:**
+Run `/feedback` in the CLI, or [open an issue](https://github.com/abacusai/abacusai-desktop/issues/new/choose) here. Please include:
 
-- Only referenced files are shared with AI
-- No training on your code
-- Zero Data Retention Agreement with All the AI Models
-- Encrypted data transmission
+- the product and version (`abacusai --version`, or the extension version in VS Code's Extensions view)
+- your OS
+- steps to reproduce, and what you expected to happen
 
----
+## Support
 
-## **Documentation & Support**
+- Email: support@abacus.ai
+- [Documentation](https://abacus.ai/help/abacusai-desktop/introduction)
+- [FAQ](https://desktop.abacus.ai/desktop_faq)
 
-### **Getting Help**
+## Data and privacy
 
-- **Help Center**: [abacus.ai/help/abacusai-desktop](https://abacus.ai/help/abacusai-desktop/introduction)
-- **Desktop Landing Page**: [desktop.abacus.ai](https://desktop.abacus.ai/)
-- **FAQs**: [desktop.abacus.ai/desktop_faq](https://desktop.abacus.ai/desktop_faq)
-- **Support**: support@abacus.ai
-
-### **New to Abacus AI?**
-
-- **Sign Up**: [abacus.ai/pricing](https://abacus.ai/pricing)
-- **Main Site**: [abacus.ai](https://abacus.ai)
-- **Documentation**: [abacus.ai/help](https://abacus.ai/help)
+Your code is not used for training. Abacus.AI has zero data retention agreements with model providers, and data is encrypted in transit. With a local provider, nothing about the turn reaches Abacus.AI. See the [privacy policy](https://abacus.ai/privacy) and [terms of service](https://abacus.ai/terms).
 
 ---
 
-## **What's Included in Abacus AI Pro?**
-
-Your subscription includes:
-
-- ✅ **Abacus AI Dev** (VS Code extension)
-- ✅ **ChatLLM Teams** - Collaborative AI workspace
-- ✅ **DeepAgent** - Advanced task automation
-- ✅ **Abacus AI Desktop App** - Desktop automation
-- ✅ **Abacus AI Listener** - Voice-activated AI
-- ✅ **Abacus AI CLI** - Terminal coding agent
-
-**One subscription. Complete AI productivity suite.**
-
-[Learn more about Pro Tier →](https://abacus.ai/help/chatllm-ai-super-assistant/faqs/billing)
-
----
-
-## **License & Terms**
-
-Abacus AI requires an active Abacus AI Pro subscription.
-
-- **Terms of Service**: [abacus.ai/terms](https://abacus.ai/terms)
-- **Privacy Policy**: [abacus.ai/privacy](https://abacus.ai/privacy)
-
----
-
-**Transform your coding workflow today with Abacus AI.**
-
-[Learn More →](https://desktop.abacus.ai/) | [Get Pro →](https://abacus.ai/pricing)
+The source code is not public. This repository tracks issues and feedback.
